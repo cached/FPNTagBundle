@@ -18,6 +18,7 @@
             <argument>%fpn_tag.entity.tagging.class%</argument>
             <argument type="service" id="fpn_tag.slugifier" />
         </service>
+        <service id="%fpn_tag.tag_manager.class%" alias="fpn_tag.tag_manager"/>
     </services>
 
 </container>
